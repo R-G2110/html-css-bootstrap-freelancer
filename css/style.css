@@ -4,6 +4,12 @@
   border: 1px solid;
 }
 
+.container-custom {
+  width: 60%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
 header {
   height: 90px;
 }
