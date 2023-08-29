@@ -15,16 +15,16 @@
 <body>
   <!-- header -->
   <header>
-    <div class="container">
-      <div class="row align-items-center ">
+    <div class="container h-100">
+      <div class="row align-items-center h-100 ">
         <div class="col-4">START BOOTSTRAP</div>
         <div class="col-1 offset-7 d-md-none">H</div>
         <div class="col-4 offset-4 d-none d-md-block ">
           <nav>
-            <ul class="d-flex list-unstyled justify-content-between align-items-center h-100 ">
-              <li><a href="#" class="h-100 text-decoration-none"></a>portfolio</li>
-              <li><a href="#" class="h-100 text-decoration-none"></a>about</li>
-              <li><a href="#" class="h-100 text-decoration-none"></a>contact</li>
+            <ul class="d-flex list-unstyled justify-content-between h-100">
+              <li><a href="#" class="text-decoration-none"></a>portfolio</li>
+              <li><a href="#" class="text-decoration-none"></a>about</li>
+              <li><a href="#" class="text-decoration-none"></a>contact</li>
             </ul>
           </nav>
         </div>
@@ -85,29 +85,69 @@
     <!-- contact -->
     <section id="contact">
       <div class="container-custom ">
-        <div class="container-fluid">
+        <div class="container-fluid flex-column">
           <h2 class="text-center">contact me</h2>
           <div class="text-center">-------star------</div>
           <div class="row">
-            <div class="col">
-              <ul class="list-unstyled ">
-                <li><label for="">name</label></li>
-                <li><label for="">email address</label></li>
-                <li><label for="">phone number</label></li>
-                <li><label for="">messages</label></li>
+            <div class="col-12">
+              <ul class="list-unstyled my-3">
+                <li>
+                  <input type="text" placeholder="Name" class="w-100">
+                </li>
+                <li>
+                  <input type="text" placeholder="Email Address" class="w-100">
+                </li>
+                <li>
+                  <input type="text" placeholder="Phone Number" class="w-100">
+                </li>
+                <li>
+                  <input type="text" placeholder="Message" class="w-100">
+                </li>
+                <li>
+                  <input type="submit" value="Send" class="mt-5 text-start">
+                </li>
               </ul>
-              <button class="btn">send</button>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- /contact -->
+
+    <!-- location -->
+    <section id="location"> 
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 p-3 col-md-4">
+            <h6>location</h6>
+            <span>2215 john daniel clark, MO 54243 </span>
+          </div>
+          <div class="col-12 p-3 col-md-4">
+            <h6>around the web</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li class="mx-1 ">facebook</li>
+              <li class="mx-1 ">gooogle+</li>
+              <li class="mx-1 ">twitter</li>
+              <li class="mx-1 ">linkedin</li>
+            </ul>
+          </div>
+          <div class="col-12 p-3 col-md-4">
+            <h6>about freelancer</h6>
+            <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /location -->
   </main>
   <!-- /main -->
 
   <!-- footer -->
-  <footer></footer>
+  <footer class="container">
+    <div class="container h-100 d-flex justify-content-center align-items-center">
+      <span>Copyright Your Website 2023</span>
+    </div>
+  </footer>
   <!-- /footer -->
 </body>
 </html>

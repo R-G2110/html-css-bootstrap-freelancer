@@ -6,10 +6,15 @@
 
 .container-custom {
   width: 60%;
-  max-width: 1320px;
+  max-width: 1000px;
+  min-width: 150px;
   margin: 0 auto;
 }
 
 header {
   height: 90px;
+}
+
+footer {
+  height: 110px;
 }
