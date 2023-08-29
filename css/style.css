@@ -1,8 +1,26 @@
+:root{
+  --torquise: #1ABC9C;
+}
+
 [class^='container'],
 [class^='col'] {
   background-color: rgba(0, 255, 0, .2);
   border: 1px solid;
 }
+
+h2,
+h6 {
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background: var(--torquise);
+  border: none;
+  color: white;
+}
+
 
 .container-custom {
   width: 60%;
