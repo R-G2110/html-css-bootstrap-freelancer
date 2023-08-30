@@ -13,14 +13,32 @@ h6 {
   text-transform: uppercase;
 }
 
+/* a {
+  cursor: pointer;
+} */
+
+.btn-download {
+  padding: 5px 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
 .btn-submit {
-  padding: 5px 15px;
+  padding: 2px 5px;
   border-radius: 5px;
   background: var(--torquise);
   border: none;
   color: white;
 }
 
+.social-icon {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
 
 .container-custom {
   width: 60%;
@@ -33,6 +51,16 @@ header {
   height: 90px;
 }
 
-footer {
-  height: 110px;
+/* FOOTER */
+footer{
+  color: white;
+}
+
+.top-footer {
+  background-color: #3A546D;
+}
+
+.bottom-footer {
+height: 90px;
+background-color: #2C3E50;
 }
