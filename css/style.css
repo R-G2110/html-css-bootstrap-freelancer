@@ -53,6 +53,7 @@ img {
 .debug {
   background-color: rgba(red, 0, 0, .2);
 }
+
 /* HEADER */
 header {
   height: 90px;
@@ -77,6 +78,7 @@ header .navbar-toggler  .navbar-toggler-icon {
 #contact .section-top .bar {
   background-color: #2C3E50;
 }
+
 #portfolio .section-top .star span,
 #contact .section-top span {
   color: #2C3E50;
