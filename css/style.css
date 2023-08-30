@@ -1,12 +1,6 @@
-:root{
-  --torquise: #1ABC9C;
+:root {
+  --white: #FFFFFF;
 }
-/* 
-[class^='container'],
-[class^='col'] {
-  background-color: rgba(0, 255, 0, .2);
-  border: 1px solid;
-} */
 /* UTILITIES */
 h1,
 h2,
@@ -28,6 +22,19 @@ img {
   padding: 20px;
 }
 
+.section-top .bar {
+  width: 25%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.section-top .star {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-download {
   padding: 5px 25px;
   border-radius: 5px;
@@ -38,20 +45,43 @@ img {
 }
 
 .social-icon {
-  /* width: 20px;
-  height: 20px;
-  padding: 10px 10px;
+  padding: 5px 10px;
   border: 1px solid white;
-  border-radius: 50%; */
+  border-radius: 50%;
   color: white;
-  font-size: 15px;
+}
+.debug {
+  background-color: rgba(red, 0, 0, .2);
 }
 /* HEADER */
 header {
   height: 90px;
+  background-color: #2C3E50;
+}
+
+header .navbar a {
+  color: white;
+}
+
+header .navbar-toggler {
+  color: var(--white);
+  border: solid var(--white);
+}
+
+header .navbar-toggler  .navbar-toggler-icon {
+  color: var(--white);
 }
 
 /* MAIN */
+#portfolio .section-top .bar,
+#contact .section-top .bar {
+  background-color: #2C3E50;
+}
+#portfolio .section-top .star span,
+#contact .section-top span {
+  color: #2C3E50;
+}
+
 /* JUMBOTRON */
 #jumbotron {
   background-color: #1ABC9C;
@@ -78,7 +108,7 @@ header {
   top: 0;
   left: 0;
   text-align: center;
-  line-height: 250px;
+  line-height: 200px;
   border-radius: 10px;
   display: none;
   cursor: pointer;
@@ -133,15 +163,9 @@ footer .footer-top {
   background-color: #3A546D;
 }
 
-footer .footer-top .social-icon::before {
-  padding: 1px 10px;
-  border: 1px solid white;
-  border-radius: 50%;
-}
-
 footer .footer-top .social-icon:hover {
-  background-color: white;
   color: #3A546D;
+  background-color: white;
 }
 
 footer .footer-bottom {
