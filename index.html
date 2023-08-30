@@ -38,146 +38,152 @@
 
   <!-- main -->
   <main>
-    <!-- jumbotron -->
-    <section id="jumbotron">
-      <div class="container">
-        <div class="row justify-content-center ">
-          <div class="col text-center ">
-            <div>image</div>
-            <h2>start bootstrap</h2>
-            <span>--------&star;--------</span>
-            <div>graphic artist - web designer - illustrator</div>
-          </div>
-        </div>
+    <section id="jumbotron" class="d-flex flex-column align-items-center  py-5">
+      <div class="avatar">
+        <img src="img/avatar.svg" alt="">
       </div>
+      <div class="star text-center ">
+        <h1>start bootstrap</h1>
+        <span>----&star;----</span>
+      </div>
+      <h6>graphic artist - web designer - illustrator</h6>
     </section>
-    <!-- /jumbotron -->
 
-    <!-- portfolio -->
-    <section id="portfolio">
-      <div class="container text-center">
+    <section id="portfolio" class="py-5">
+      <div class="star text-center ">
         <h2>portfolio</h2>
-        <span>-------&star;-------</span>
+        <span>----&star;----</span>
       </div>
-      <div class="container">   
+      <div class="container ">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">4</div>
-          <div class="col">5</div>
-          <div class="col">6</div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/cabin.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/cake.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/circus.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/game.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/safe.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="custom-card">
+              <img src="img/submarine.png" alt="">
+              <div class="overlay debug">
+                <span><i class="fa-solid fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
-    <!-- /portfolio -->
-
-    <!-- about -->
-    <section id="about">
-      <div class="container">
-        <div class="section-top text-center mb-4">
-          <h2>about</h2>
-          <div>-------&star;------</div>
-        </div>
+    <section id="about" class="py-5">
+      <div class="container section-top text-center ">
+        <h2>about</h2>
+        <span>----&star;----</span>
       </div>
-
       <div class="container-custom text-center">
-        <div class="container-fluid pb-4">
-          
-          <div class="row mb-3">
-            <div class="col-12 col-md-6">
+        <div class="container-fluid pb-4"> 
+          <div class="row mb-3 row-cols-1 row-cols-md-2 ">
+            <div class="col pb-3">
               <p>Freelancer is a free bootstrap theme created by Sart Boostrap. The download includes the complete source files including HTML;CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col pb-3">
               <p>Whether you're a student looking to showcase your work, a professional looking to attract clients or a graphic artist looking to share your projects, this template is the perfect startin point!</p>
             </div>
           </div>
-          <span class="btn-download">Download</span>
+          <button class="btn-download">
+            <span><i class="fa-solid fa-download"></i></span>
+            <span>Download</span>
+          </button>
         </div>
       </div>
-    </section>
-    <!-- /about -->
 
-    <!-- contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="section-top text-center mb-4">
-          <h2 class="text-center">contact me</h2>
-          <div class="text-center">-------&star;------</div>
-        </div>
+
+    </section>
+    <section id="contact" class="py-4">
+      <div class="star text-center ">
+        <h2>contact</h2>
+        <span>----&star;----</span>
       </div>
       <div class="container-custom">
-        <div class="container-fluid flex-column">
-          <form action="#">
-            <input type="text" placeholder="Name" class="w-100 py-1 border-0 border-bottom ">
-            <input type="email" placeholder="Email Address" class="w-100  py-1 border-0 border-bottom-1">
-            <input type="tel" placeholder="Phone Number" class="w-100 py-1 border-0 border-bottom-1">
-            <textarea name="" id="" cols="93" rows="5" placeholder="Message"></textarea>
-            <input type="submit" value="Send" class="btn-submit mt-5 text-start">
-          </form>
-
-
-          <div class="row">
-            <div class="col-12">
-              
-              <ul class="list-unstyled my-3">
-                <li class="">
-                  <input type="text" placeholder="Name" class="w-100 py-1 border-0 border-bottom ">
-                </li>
-                <li>
-                  <input type="email" placeholder="Email Address" class="w-100  py-1 border-0 border-bottom">
-                </li>
-                <li>
-                  <input type="tel" placeholder="Phone Number" class="w-100 py-1 border-0 border-bottom">
-                </li>
-                <li>
-                  <textarea name="" id="" cols="93" rows="10" placeholder="Message"></textarea>
-                </li>
-                <li>
-                  <input type="submit" value="Send" class="btn-submit mt-5 text-start">
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <form action="#">
+        
+          <input type="text" class="form-control input-custom py-3" placeholder="Name" required>
+          <input type="email" class="form-control input-custom py-3" placeholder="Email Address" required>
+          <input type="text" class="form-control input-custom py-3" placeholder="Phone Number" required>
+          <textarea name="" id="" cols="30" rows="5" placeholder="Message" class="form-control input-custom"></textarea>
+          <button class="btn btn-secondary mt-3 button-custom">Send</button>
+        </form>
       </div>
+
     </section>
-    <!-- /contact -->
   </main>
   <!-- /main -->
   
   <!-- footer -->
   <footer>
-    <section class="top-footer pt-4 ">
-    <div class="container text-center">
-      <div class="row row-cols-1 row-cols-md-3">
-
-        <div class="col">
-          <h6>location</h6>
-          <span>2215 John Daniel Clark, MO 54243 </span>
-        </div>
-
-
-        <div class="col">
-          <h6>around the web</h6>
-          <ul class="list-unstyled d-flex justify-content-center">
-            <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a></li>
-            <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-google-plus"></i></a></li>
-            <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-            <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-
-        <div class="col">
-          <h6>about freelancer</h6>
-          <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+    <section class="footer-top pt-4 ">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 ">
+  
+          <div class="col pb-3">
+            <h6>location</h6>
+            <span>2215 John Daniel Clark, MO 54243 </span>
+          </div>
+  
+  
+          <div class="col pb-3">
+            <h6>around the web</h6>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="ms-2"><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+  
+          <div class="col pb-3">
+            <h6>about freelancer</h6>
+            <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+          </div>
         </div>
       </div>
-    </div>
-
-
     </section>
-    <section class="bottom-footer pt-4">
+   
+
+    <section class="footer-bottom py-4 ">
       <div class="container">
         <div class="container h-100 d-flex justify-content-center align-items-center">
           <span>Copyright&copy; Your Website 2023</span>
